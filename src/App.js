@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import HeadlineCard from "./components/HeadlineCard";
+import Food from './components/Food';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           url="https://images.pexels.com/photos/8753550/pexels-photo-8753550.jpeg"
         />
       </section>
+      <Food />
     </div>
   );
 }
